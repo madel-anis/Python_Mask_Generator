@@ -23,6 +23,9 @@ a header file will be generated with #defines.
 
 Give you the #define of the setting mask and clearing mask of one Mask with multipe bits
 
+<p align="center">
+  <img width="700" src="Images/Multi_Reg.PNG">
+</p>
 
 ### The steps to use the Generator 
  1. Enter the name of the Register
@@ -31,3 +34,7 @@ Give you the #define of the setting mask and clearing mask of one Mask with mult
  4. enter the positions of the bits of the mask
  
  a header file will be generated with #defines. 
+ 
+<p align="center">
+  <img width="460" src="Images/Multi_Def.PNG">
+</p>
