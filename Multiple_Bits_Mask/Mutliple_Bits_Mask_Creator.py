@@ -19,7 +19,7 @@ for i in range(1,NO_OF_BITS+1):
 file = open( str(REG_NAME) + "_Defines.h",'w')
 
 
-file.write("#define " + REG_NAME + "_" + MASK_NAME  + "_MASK_" + "\t\t (0x"+  format( (Mask) , '08X' )                     +") \n")
+file.write("#define " + REG_NAME + "_" + MASK_NAME  + "_MASK"  + "\t\t (0x"+  format( (Mask) , '08X' )                     +") \n")
 file.write("#define " + REG_NAME + "_" + MASK_NAME  + "_CLEAR" + "\t\t (0x"+  format( (~(Mask) + 1 + 0xFFFFFFFF) , '08X' ) +") \n")
 
 
